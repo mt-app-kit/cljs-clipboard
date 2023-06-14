@@ -16,8 +16,12 @@
 ### copy-data!
 
 ```
+@param (?) data
+```
+
+```
 @usage
-  ;
+(copy-data! ...)
 ```
 
 <details>
@@ -25,7 +29,7 @@
 
 ```
 (defn copy-data!
-  [image])
+  [data])
 ```
 
 </details>
@@ -36,8 +40,8 @@
 ```
 (ns my-namespace (:require [clipboard.api :refer [copy-data!]]))
 
-(clipboard.api/copy-data!)
-(copy-data!)
+(clipboard.api/copy-data! ...)
+(copy-data!               ...)
 ```
 
 </details>
@@ -61,8 +65,7 @@
 ```
 (defn copy-text!
   [text]
-  (letfn [(f [] (let [text-clipboard (dom/get-element-by-id "text-clipboard")]
-                     (-> text-clipboard .-value js/navigator.clipboard.writeText)))]
+  (letfn [(f [] (-> "text-clipboard" dom/get-element-by-id .-value js/navigator.clipboard.writeText))]
          (temporary-component/append-component! [views/text-clipboard text] f)
          (temporary-component/remove-component!)))
 ```
