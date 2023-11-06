@@ -1,5 +1,9 @@
 
-# clipboard.api ClojureScript namespace
+### clipboard.api
+
+Functional documentation of the clipboard.api ClojureScript namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > clipboard.api
 
@@ -12,6 +16,8 @@
 - [read-data](#read-data)
 
 - [read-text](#read-text)
+
+---
 
 ### copy-data!
 
@@ -185,5 +191,5 @@
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 
