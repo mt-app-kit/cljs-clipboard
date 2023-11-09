@@ -3,5 +3,5 @@
  :deps  {bithandshake/cljs-dom                 {:git/url "https://github.com/bithandshake/cljs-dom"
                                                 :sha     "6542953d05ba56e22445dd0aa8daf29890511df6"}
          bithandshake/cljs-temporary-component {:git/url "https://github.com/bithandshake/cljs-temporary-component"
-                                                :sha     "0c0bac2bdc5dcff1f0872e8606fc40c87c5b6244"}
+                                                :sha     "799bf721ba04d8e929b960723ff2cf211f26657b"}
          org.clojure/clojurescript             {:mvn/version "1.10.891"}}}
