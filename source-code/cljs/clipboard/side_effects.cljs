@@ -13,8 +13,8 @@
   ; @usage
   ; (copy-text! "My text")
   [text]
-  (letfn [(f [] (-> "text-clipboard" dom/get-element-by-id .-value js/navigator.clipboard.writeText))]
-         (temporary-component/append-component! [views/text-clipboard text] f)
+  (letfn [(f0 [] (-> "text-clipboard" dom/get-element-by-id .-value js/navigator.clipboard.writeText))]
+         (temporary-component/append-component! [views/text-clipboard text] f0)
          (temporary-component/remove-component!)))
 
 (defn copy-data!
