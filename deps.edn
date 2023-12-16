@@ -1,7 +1,7 @@
 
 {:paths ["source-code/cljs"]
  :deps  {bithandshake/cljs-dom                 {:git/url "https://github.com/bithandshake/cljs-dom"
-                                                :sha     "25b852fcbe73b2139b21a9c94b68cfea0c9d659d"}
+                                                :sha     "1495bb1faf322206d00bb61b0034b0a366712bab"}
          bithandshake/cljs-temporary-component {:git/url "https://github.com/bithandshake/cljs-temporary-component"
-                                                :sha     "3bca1f9d083d1d58246b29d496e41301f0f3431c"}
+                                                :sha     "d517fb5db9c257a01529da81b1b92cd68a93062e"}
          org.clojure/clojurescript             {:mvn/version "1.10.891"}}}
