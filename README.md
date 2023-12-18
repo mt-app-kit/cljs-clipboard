@@ -10,7 +10,7 @@ or writing the clipboard.
 
 ```
 {:deps {bithandshake/cljs-clipboard {:git/url "https://github.com/bithandshake/cljs-clipboard"
-                                     :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+                                     :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
