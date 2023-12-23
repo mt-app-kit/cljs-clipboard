@@ -3,8 +3,7 @@
 
 ### Overview
 
-The <strong>cljs-clipboard</strong> is a simple ClojureScript library for reading
-or writing the clipboard.
+The <strong>cljs-clipboard</strong> is a simple clipboard handler for Clojure projects.
 
 ### deps.edn
 
