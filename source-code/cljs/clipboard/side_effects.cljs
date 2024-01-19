@@ -18,6 +18,9 @@
          (temporary-component/remove-component!)))
 
 (defn copy-data!
+  ; @important
+  ; This function is incomplete and may not behave as expected.
+  ;
   ; @param (?) data
   ;
   ; @usage

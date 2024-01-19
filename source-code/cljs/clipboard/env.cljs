@@ -30,6 +30,9 @@
                 (or rejected-f  default-rejected-f))))
 
 (defn read-data
+  ; @important
+  ; This function is incomplete and may not behave as expected.
+  ;
   ; @param (function)(opt) fulfilled-f
   ; @param (function)(opt) rejected-f
   ;
