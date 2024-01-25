@@ -27,4 +27,4 @@
   ; (copy-data! ...)
   [data])
   ; TODO
-  ; https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/write)
+  ; https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/write
