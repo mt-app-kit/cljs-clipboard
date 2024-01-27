@@ -8,6 +8,9 @@
 ;; ----------------------------------------------------------------------------
 
 (defn copy-text!
+  ; @description
+  ; Copies the given text to the clipboard.
+  ;
   ; @param (string) text
   ;
   ; @usage
@@ -20,6 +23,9 @@
 (defn copy-data!
   ; @important
   ; This function is incomplete and may not behave as expected.
+  ;
+  ; @description
+  ; Copies the given data to the clipboard.
   ;
   ; @param (?) data
   ;

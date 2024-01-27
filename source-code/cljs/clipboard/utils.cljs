@@ -9,7 +9,7 @@
   ;
   ; @param (*) n
   [n]
-  (.log js/console content))
+  (.log js/console n))
 
 (defn default-on-error-f
   ; @ignore
