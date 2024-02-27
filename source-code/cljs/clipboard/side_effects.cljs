@@ -2,7 +2,7 @@
 (ns clipboard.side-effects
     (:require [clipboard.views         :as views]
               [dom.api                 :as dom]
-              [temporary-component.api :as temporary-component]))
+              [temporary-components.api :as temporary-components]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -17,8 +17,8 @@
   ; (copy-text! "My text")
   [text]
   (letfn [(f0 [] (-> "text-clipboard" dom/get-element-by-id .-value js/navigator.clipboard.writeText))]
-         (temporary-component/append-component! [views/text-clipboard text] f0)
-         (temporary-component/remove-component!)))
+         (temporary-components/append-component! [views/text-clipboard text] f0)
+         (temporary-components/remove-component!)))
 
 (defn copy-data!
   ; @important
