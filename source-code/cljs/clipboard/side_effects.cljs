@@ -1,7 +1,7 @@
 
 (ns clipboard.side-effects
-    (:require [clipboard.views         :as views]
-              [dom.api                 :as dom]
+    (:require [clipboard.views      :as views]
+              [dom.api              :as dom]
               [hidden-container.api :as hidden-container]))
 
 ;; ----------------------------------------------------------------------------
