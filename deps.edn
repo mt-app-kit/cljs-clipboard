@@ -3,5 +3,5 @@
  :deps  {bithandshake/cljs-dom            {:git/url "https://github.com/bithandshake/cljs-dom"
                                            :sha     "c352ec9cf6304cf8fb78543349fca725e7d3107d"}
          mt-app-kit/cljs-hidden-container {:git/url "https://github.com/mt-app-kit/cljs-hidden-container"
-                                           :sha     "3a0dd18d288468f4151d3a3de60c4b874e38f2ee"}
+                                           :sha     "154188663d11a5f1eee2262adae1685e0926c866"}
          org.clojure/clojurescript        {:mvn/version "1.10.891"}}}
