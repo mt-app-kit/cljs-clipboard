@@ -1,7 +1,7 @@
 
 {:paths ["source-code/cljs"]
  :deps  {mt-app-kit/cljs-hidden-container {:git/url "https://github.com/mt-app-kit/cljs-hidden-container"
-                                           :sha     "bc0d5b6a7e5abbea078ad0094651c7fdee501604"}
+                                           :sha     "6133802ef2e01ae4158186491f85a867a6edee08"}
          mt-utilities/cljs-dom            {:git/url "https://github.com/mt-utilities/cljs-dom"
-                                           :sha     "4a2513df6bc4fb5fdf684d373db41edb84ca552e"}
+                                           :sha     "2aad0f82d1e681dcd7a7addcae93d99344d99f3c"}
          org.clojure/clojurescript        {:mvn/version "1.10.891"}}}
